@@ -72,7 +72,7 @@ func Initialize(opt... Option) (mso *MSO) {
     mso.SetOption(1)
 
     //XlFileFormat Enumeration: http://msdn.microsoft.com/en-us/library/office/ff198017%28v=office.15%29.aspx
-    mso.FILEFORMAT = map[string]int {"txt":-4158, "csv":6, "html":44, "xlsx", 51}
+    mso.FILEFORMAT = map[string]int {"txt":-4158, "csv":6, "html":44, "xlsx":51 }
     return
 }
 
